@@ -96,9 +96,15 @@ nav {
   color: #6a6a6a;
   margin: 1.5rem 0rem;
 }
+.primary-text2 {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  max-width: 500px;
+  color: #6a6a6a;
+  margin: 1.5rem 0rem;
+}
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: #0478db;
   outline: none;
   border: none;
   border-radius: 5rem;

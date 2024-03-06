@@ -1,6 +1,6 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
+import BannerImage from "../Assets/laptop-banner-image.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -13,16 +13,17 @@ const Home = () => {
           <img src={BannerBackground} alt="" />
         </div>
         <div className="home-text-section">
-          <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
-          </h1>
+          <h1 className="primary-heading">Welcome to DealRoom</h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Your one-stop platform for business development and investment
+            opportunities.
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Get Started <FiArrowRight />{" "}
           </button>
+          <p className="primary-text2">
+            Join us and explore the world of opportunities.
+          </p>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />
