@@ -148,7 +148,7 @@ nav {
 }
 .primary-subheading {
   font-weight: 700;
-  color: #fe9e0d;
+  color: #0478db;
   font-size: 1.15rem;
 }
 .about-buttons-container {
@@ -283,8 +283,14 @@ nav {
   align-items: center;
   flex-direction: column;
 }
+.info-boxes-img-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
 .work-section-info {
-  width: 290px;
+  width: 400px;
   min-height: 350px;
   background-color: white;
   padding: 1rem 2rem;
