@@ -359,6 +359,27 @@ nav {
   margin-top: 0;
 }
 
+.benefits-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.benefit-item .primary-text {
+  margin-bottom: auto;
+}
+
+.benefit-item .secondary-button {
+  padding: 8px 18px; /* Adjust as needed */
+  margin: 10px; /* Adjust as needed */
+}
+
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;

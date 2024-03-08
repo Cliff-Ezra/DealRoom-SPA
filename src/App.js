@@ -1,10 +1,11 @@
 import "./App.css";
-import Home from "./Components/Home";
-import Platform from "./Components/Platform";
 import About from "./Components/About";
-import Testimonial from "./Components/Testimonial";
+import Benefits from "./Components/Benefits";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import Platform from "./Components/Platform";
+import Testimonial from "./Components/Testimonial";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Platform />
+      <Benefits />
       <Testimonial />
       <Contact />
       <Footer />
