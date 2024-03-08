@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="contact-page-wrapper">
       <h1 className="primary-heading">Ready to Get Started?</h1>
-      <h1 className="primary-text">
+      <h1 className="primary-text-platform">
         Join DealRoom today and discover the perfect investment opportunities.
       </h1>
       <button className="secondary-button">Sign Up Now</button>
