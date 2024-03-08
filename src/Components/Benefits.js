@@ -17,24 +17,22 @@ const Benefits = () => {
         </p>
         <div className="benefits-container">
           <div className="benefit-item">
-            <p className="primary-text">
-              {" "}
-              For Business{" "}
-            </p>
-            <button className="secondary-button">
-              {" "}
-              Get Started <FiArrowRight />{" "}
-            </button>
+            <p className="primary-text"> For Business </p>
+            <a href="https://deal-room-live.vercel.app/auth/register">
+              <button className="secondary-button">
+                {" "}
+                Get Started <FiArrowRight />{" "}
+              </button>
+            </a>
           </div>
           <div className="benefit-item">
-            <p className="primary-text">
-              {" "}
-              For Investment{" "}
-            </p>
-            <button className="secondary-button">
-              {" "}
-              Get Started <FiArrowRight />{" "}
-            </button>
+            <p className="primary-text"> For Investment </p>
+            <a href="https://deal-room-live.vercel.app/auth/register">
+              <button className="secondary-button">
+                {" "}
+                Get Started <FiArrowRight />{" "}
+              </button>
+            </a>
           </div>
         </div>
       </div>

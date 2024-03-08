@@ -23,6 +23,10 @@ body {
   background-color: #f6f6f6;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -117,6 +121,7 @@ nav {
   margin: 1.5rem 0rem;
 }
 .secondary-button {
+  text-decoration: none;
   padding: 1rem 2.5rem;
   background-color: #0478db;
   outline: none;

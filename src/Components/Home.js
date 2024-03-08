@@ -18,9 +18,11 @@ const Home = () => {
             Your one-stop platform for business development and investment
             opportunities.
           </p>
-          <button className="secondary-button">
-            Get Started <FiArrowRight />{" "}
-          </button>
+          <a href="https://deal-room-live.vercel.app/auth/register">
+            <button className="secondary-button">
+              Get Started <FiArrowRight />{" "}
+            </button>
+          </a>
           <p className="primary-text2">
             Join us and explore the world of opportunities.
           </p>
