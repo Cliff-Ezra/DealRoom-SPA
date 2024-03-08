@@ -5,7 +5,7 @@ import Algorithm from "../Assets/algorithm.png";
 import Kanban from "../Assets/kanban.png";
 import Analytics from "../Assets/dashboard.png";
 
-const Work = () => {
+const About = () => {
   const workInfoData = [
     {
       image: Business,
@@ -55,4 +55,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default About;
