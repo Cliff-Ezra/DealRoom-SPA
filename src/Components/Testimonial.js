@@ -1,23 +1,26 @@
 import React from "react";
 import ProfilePic from "../Assets/john-doe-image.png";
 import { AiFillStar } from "react-icons/ai";
+import BannerBackground from "../Assets/home-banner-background.png";
 
 const Testimonial = () => {
   return (
     <div className="work-section-wrapper">
+      <div className="home-bannerImage-container">
+        <img src={BannerBackground} alt="" />
+      </div>
       <div className="work-section-top">
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
-        <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-        </p>
+        <p className="primary-text">Hear from our satisfied users.</p>
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          DealRoom has been a game changer for us. We were able to secure
+          funding for our business in a matter of weeks. The platform is easy to
+          use and the support team is very responsive. I would highly recommend
+          DealRoom to any business looking for investment.
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
