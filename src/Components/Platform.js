@@ -26,7 +26,7 @@ const Platform = () => {
           advisors in one platform
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button-platform">Learn More</button>
           <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Video
           </button>
