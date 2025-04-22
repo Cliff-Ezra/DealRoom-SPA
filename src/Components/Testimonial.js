@@ -1,13 +1,11 @@
 import React from "react";
 import TestimonialPic from "../Assets/Testimonial.jpeg";
 import { AiFillStar } from "react-icons/ai";
-import BannerBackground from "../Assets/home-banner-background.png";
 
 const Testimonial = () => {
   return (
     <div className="work-section-wrapper">
       <div className="home-bannerImage-container">
-        <img src={BannerBackground} alt="" />
       </div>
       <div className="work-section-top">
         <p className="primary-subheading">Testimonial</p>
