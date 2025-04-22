@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../Assets/john-doe-image.png";
+import TestimonialPic from "../Assets/Testimonial.jpeg";
 import { AiFillStar } from "react-icons/ai";
 import BannerBackground from "../Assets/home-banner-background.png";
 
@@ -15,7 +15,16 @@ const Testimonial = () => {
         <p className="primary-text">Hear from our satisfied users.</p>
       </div>
       <div className="testimonial-section-bottom">
-        <img src={ProfilePic} alt="" />
+          <img 
+            src={TestimonialPic} 
+            alt="" 
+            style={{
+              width: "200px",
+              height: "200px",
+              borderRadius: "50%",
+              objectFit: "cover"
+            }}
+          />
         <p>
           DealRoom has been a game changer for us. We were able to secure
           funding for our business in a matter of weeks. The platform is easy to
@@ -29,7 +38,7 @@ const Testimonial = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>John Doe</h2>
+        <h2>Cliff Ezra</h2>
       </div>
     </div>
   );
